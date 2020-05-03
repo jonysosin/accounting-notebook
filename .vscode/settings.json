@@ -1,0 +1,34 @@
+{
+    "search.exclude": {
+      // disable built-in rule
+      "**/node_modules": false,
+  
+      ".nyc_output/**": true,
+  
+      "coverage/**": true,
+  
+      "server.log": true,
+  
+      // only exclude root node_modules
+      "node_modules": true
+    },
+    "files.watcherExclude": {
+      // disable built-in rule
+      "**/node_modules/**": false,
+  
+      // only exclude root node_modules
+      "node_modules/**": true
+    },
+  
+    // Disable standard
+    "standard.enable": false,
+  
+    // Enable eslint
+    "eslint.enable": true,
+  
+    "editor.formatOnSave": true,
+  
+    // Disable editor lint, use eslint
+    "javascript.validate.enable": false,
+}
+  

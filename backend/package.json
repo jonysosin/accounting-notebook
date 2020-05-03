@@ -1,0 +1,29 @@
+{
+  "name": "test-backend",
+  "version": "1.0.0",
+  "description": "AgileEngine Backend App for Test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node .build/index.js"
+  },
+  "author": "Jonathan Sosin",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "@types/validator": "^13.0.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^8.0.8",
+    "mongo": "^0.1.0",
+    "uuid": "^8.0.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.3",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.4.0",
+    "@types/koa__cors": "^3.0.1",
+    "@types/uuid": "^7.0.3"
+  }
+}
