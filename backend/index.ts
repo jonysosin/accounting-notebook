@@ -20,5 +20,6 @@ app
 
 app.use(TransactionRouter.routes())
 
-app.listen(4001)
-console.log('App started in port 3001')
+const port = process.env.PORT || 4001
+app.listen(port)
+console.log(`App started in port ${port}`)
