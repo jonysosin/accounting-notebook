@@ -44,7 +44,7 @@ $ yarn start
 
 _This endpoint is in charge of generating a new transaction for the account._
 
-`POST http://localhost:3001/api/transactions`
+`POST http://localhost:4001/api/transactions`
 
 _Example of request body_
 
@@ -59,11 +59,11 @@ _Example of request body_
 
 _This endpoint will return the information of the transaction._
 
-`GET http://localhost:3001/api/transactions/:transactionId`
+`GET http://localhost:4001/api/transactions/:transactionId`
 
 _Example of request_
 
-`GET http://localhost:3001/api/transactions/e7cc8b06-eafd-4518-bcad-27afae924bd5`
+`GET http://localhost:4001/api/transactions/e7cc8b06-eafd-4518-bcad-27afae924bd5`
 
 _Example of response_
 
@@ -80,7 +80,7 @@ _Example of response_
 
 _This endpoint will return all the transactions for the account._
 
-`GET http://localhost:3001/api/transactions`
+`GET http://localhost:4001/api/transactions`
 
 _Example of response_
 
@@ -105,7 +105,7 @@ _Example of response_
 
 _This endpoint will return the current balance of the account._
 
-`GET http://localhost:3001/api/transactions/balance`
+`GET http://localhost:4001/api/transactions/balance`
 
 _Example of response_
 
