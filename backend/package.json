@@ -17,7 +17,7 @@
     "koa-router": "^8.0.8",
     "mongo": "^0.1.0",
     "uuid": "^8.0.0",
-    "validator": "^13.0.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "@types/koa": "^2.11.3",
